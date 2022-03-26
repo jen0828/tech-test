@@ -26,3 +26,11 @@ const topFiveFrequentNumbers = function (string, myNum = 5) {
   //return result.join('\n');
   result.forEach((element) => document.write(element + '<br>'));
 };
+
+const retrievedText = localStorage.getItem('text');
+// console.log(typeof retrievedText); // String
+const myString = retrievedText;
+//console.log(myString)
+
+//Function call
+topFiveFrequentNumbers(myString, 5);
