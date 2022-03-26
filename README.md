@@ -12,13 +12,19 @@ This should be a shell pipeline (i.e. a bash one-liner); use of perl, awk, sed o
  - Print only the numbers themselves, not their frequencies
  - Assume the input file will be well formatted (containing only numbers)
 
+**Solution:**
+ ```
+$ sort file.txt| uniq -c | sort -nr |cut -c 5- |head -n 5 
+
+```
+
 ----------
 Question 2
 ---
 
 Solve the same problem as above within a single file of Python, C# or JavaScript.
 
-## Design Note :
+**Design Note:**
 
 * Input : a string ( example - '1\n2\n3\n4\n5\n5' )
 * Output : a string (example - '5\n1\n2\n3\n4' )
@@ -37,5 +43,23 @@ Question 4
 ---
 Deploy a webpage that solves question 1. The user should be able to upload the text file and see the top 5 most frequent numbers as a result. Please provide a link to your solution.
 
+**Solution:**
 * The website's been deployed here: https://jen0828.github.io/coding-challenge/
 
+## Installation
+### To clone the repo
+```shell
+$ git clone https://github.com/jen0828/coding-challenge
+$ cd coding-challenge
+```
+
+### To run React app
+``` shell
+$ npm install
+$ open index.html
+```
+
+### To test 
+```shell
+$ npm test
+```
