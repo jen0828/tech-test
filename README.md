@@ -1,5 +1,7 @@
 # Coding Challenge
+
 Complete four coding exercises below in three hours.
+
 ----------
 Question 1 
 ---
@@ -31,6 +33,10 @@ Solve the same problem as above within a single file of Python, C# or JavaScript
 
 * Assumption: When the output of the top five numbers is less than five numbers, it will show as it is without an error.
 * Edge case: When the file is empty, it should throw an error.
+
+**Solution:**
+
+See `topFiveNums.js` `topFiveNums.test.js` , or text.file
 
 ----------
 Question 3 
