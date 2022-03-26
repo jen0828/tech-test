@@ -23,15 +23,11 @@ const topFiveFrequentNumbers = function (string, myNum = 5) {
 
   array.slice(0, myNum).forEach((element) => result.push(element[0]));
 
-  //return result.join('\n');
   result.forEach((element) => document.write(element + '<br>'));
 };
 
 const retrievedText = localStorage.getItem('text');
-// console.log(typeof retrievedText); // String
 const myString = retrievedText;
-//console.log(myString)
 
-//Function call
 topFiveFrequentNumbers(myString, 5);
 localStorage.clear();
