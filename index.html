@@ -10,6 +10,19 @@
   <header>
     <h1>Top 5 Frequent Numbers</h1>
   </header>
+  <input type='file' accept='text/plain' onchange='openFile(event)'>
+  <br><br>
+  <script>
+    const openFile = function(event) {
+      const input = event.target;
+      const reader = new FileReader();
+      reader.onload = function(){ 
+        const text = reader.result;
+        console.log(reader.result.substring(0, 200));
+      };
+      reader.readAsText(input.files[0]);
+    };
+  </script>
   
   <script src="main.js"></script>
 </body>
