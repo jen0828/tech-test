@@ -59,7 +59,7 @@ $ git clone https://github.com/jen0828/coding-challenge
 $ cd coding-challenge
 ```
 
-### To run React app
+### To run the app
 ``` shell
 $ npm install
 $ open index.html
