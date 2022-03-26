@@ -16,8 +16,12 @@ This should be a shell pipeline (i.e. a bash one-liner); use of perl, awk, sed o
 
 **Solution:**
  ```
-$ sort file.txt| uniq -c | sort -nr |cut -c 5- |head -n 5 
-
+$ sort file.txt| uniq -c | sort -nr |cut -c 6- |head -n 5 
+4
+1
+6
+5
+3
 ```
 
 ----------
