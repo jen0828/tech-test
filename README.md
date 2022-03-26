@@ -52,6 +52,13 @@ Deploy a webpage that solves question 1. The user should be able to upload the t
 **Solution:**
 * The website's been deployed here: https://jen0828.github.io/coding-challenge/
 
+## Technologies used
+* JavaScript
+* Node v16.13.1
+* Jest for testing
+* Bash one-liners
+* GitHub Pages Deployment
+
 ## Installation
 ### To clone the repo
 ```shell
@@ -69,3 +76,4 @@ $ open index.html
 ```shell
 $ npm test
 ```
+
