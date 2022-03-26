@@ -36,7 +36,7 @@ Solve the same problem as above within a single file of Python, C# or JavaScript
 
 **Solution:**
 
-See `topFiveNums.js` `topFiveNums.test.js` , or text.file
+See `topFiveNums.js` `topFiveNums.test.js` 
 
 ----------
 Question 3 
