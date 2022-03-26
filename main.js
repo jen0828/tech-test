@@ -34,3 +34,4 @@ const myString = retrievedText;
 
 //Function call
 topFiveFrequentNumbers(myString, 5);
+localStorage.clear();
