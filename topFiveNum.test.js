@@ -28,4 +28,12 @@ describe('#topFiveFrequentNumbers', () => {
       ).toEqual('4\n5\n1\n2\n3');
     });
   });
+
+  // Edge case
+
+  it('should throw an error when the file is empty', () => {
+    expect(() => {
+      topFiveFrequentNumbers('', 5);
+    }).toThrow('File is empty!');
+  });
 });

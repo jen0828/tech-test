@@ -3,6 +3,10 @@ const topFiveFrequentNumbers = function (string, myNum = 5) {
   let freq = {};
   let result = [];
 
+  if (string === '') {
+    throw new Error('File is empty!');
+  }
+
   new_array.forEach((num) => {
     if (freq[num]) {
       freq[num]++;
