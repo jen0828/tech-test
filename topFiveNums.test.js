@@ -1,4 +1,4 @@
-const topFiveFrequentNumbers = require('./topFiveNum.js');
+const topFiveFrequentNumbers = require('./topFiveNums.js');
 
 describe('#topFiveFrequentNumbers', () => {
   describe(' when output is less than five numbers', () => {
